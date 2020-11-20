@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    font-size: medium;
+    background-color: rgba(85, 121, 119, 0.55);
+}
+
+#nav-left {
+    width: 400px;
+    justify-content: left;
+}
+
+#nav-right {
+    width: 550px;
+    justify-content: space-evenly;
+    color: white;
+}
+
+.nav-box {
+    height: 50px;
+    display: inline-flex;
+}
+
+a:link {
+    color: white;
+    text-decoration-line: none;
+}
+a:hover {
+    font-weight: bold;
+    text-decoration-line: underline;
+    color: white;
+  }
+
+a:visited{
+    color: white;
+}
+
+#purple-background {
+    background-image: url('assets/gradient-violet-bg.jpg');
+    background-position: 50% 50%;
+    background-size: cover;
+}
+
+#laptop-image {
+    align-content: center;
+}
+
+button {
+    border-radius: 5px;
+    background-color: #fe9000;
+    border-color: #fe9000;
+}
